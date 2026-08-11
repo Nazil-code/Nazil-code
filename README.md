@@ -10,22 +10,3 @@
 
 ---
 
-### 🛡️ **Technical Arsenal & Expertise**
-
-* **🤖 AI & Automation:** `n8n`, `OpenAI Architectures`, `RAG Systems`, `Custom AI Chatbots`
-* **🔒 Cybersecurity:** `SOC Operations`, `Security Information Log Analysis`, `Penetration Testing (Kali Linux, Hydra)`, `Network Security`
-* **💻 Web Development:** `HTML5`, `Tailwind CSS`, `JavaScript`, `Next.js`, `Framer Motion`
-* **📊 Business & Sales:** `Sales Management`, `Business Strategy`, `Lead Management`
-
----
-
-### 📊 **GitHub Metrics & Stats**
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=nazil-code&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nazil-code&layout=compact&theme=tokyonight&hide_border=true&bg_color=1a1b26" alt="Top Langs" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nazil-code&color=blueviolet&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
-</p>
