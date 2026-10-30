@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/header.svg" width="100%" alt="Nazil Iqbal — Founder, Automate with Nazil" />
+  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/banner.gif" width="100%" alt="Nazil Iqbal — Founder, Automate with Nazil" />
 </p>
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=8F6BFF&center=true&vCenter=true&width=700&lines=Founder+%40+Automate+with+Nazil;Creator+of+Probe0+%E2%80%94+AI+security+scanner;Making+security+tools+free+for+everyone;AI+Automation+%E2%80%A2+Web+Apps+%E2%80%A2+Security;Shipping+in+public%2C+every+single+day" alt="What I do" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=8F6BFF&center=true&vCenter=true&width=760&lines=Founder+%40+Automate+with+Nazil;Creator+of+Probe0+%E2%80%94+AI+security+scanner;Making+security+tools+free+for+everyone;AI+Automation+%E2%80%A2+Web+Apps+%E2%80%A2+Security;Shipping+in+public%2C+every+single+day" alt="What I do" />
   </a>
 </p>
 
