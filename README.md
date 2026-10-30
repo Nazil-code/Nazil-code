@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=8F6BFF&center=true&vCenter=true&width=680&lines=Founder+%40+Automate+with+Nazil;Creator+of+Probe0+%E2%80%94+AI+security+scanner;AI+Automation+%E2%80%A2+Web+Apps+%E2%80%A2+Security" alt="What I do" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=8F6BFF&center=true&vCenter=true&width=700&lines=Founder+%40+Automate+with+Nazil;Creator+of+Probe0+%E2%80%94+AI+security+scanner;Making+security+tools+free+for+everyone;AI+Automation+%E2%80%A2+Web+Apps+%E2%80%A2+Security;Shipping+in+public%2C+every+single+day" alt="What I do" />
   </a>
 </p>
 
@@ -72,5 +72,5 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,20,24&height=90&section=footer" width="100%" />
+  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/footer-neon.svg" width="100%" alt="built in public" />
 </p>

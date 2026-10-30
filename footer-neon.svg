@@ -1,0 +1,35 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="f_border" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8F6BFF"/><stop offset="0.5" stop-color="#5AE0FF"/><stop offset="1" stop-color="#8F6BFF"/>
+      <animate attributeName="x1" values="0;0.6;0" dur="5s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="f_glow" cx="50%" cy="100%" r="80%"><stop offset="0" stop-color="#3b1f8a" stop-opacity="0.55"/><stop offset="70%" stop-color="#0A0714" stop-opacity="0"/></radialGradient>
+    <linearGradient id="st_cy" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#5AE0FF" stop-opacity="0"/><stop offset="0.5" stop-color="#5AE0FF"/><stop offset="1" stop-color="#5AE0FF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="st_pu" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8F6BFF" stop-opacity="0"/><stop offset="0.5" stop-color="#b78bff"/><stop offset="1" stop-color="#8F6BFF" stop-opacity="0"/></linearGradient>
+    <linearGradient id="st_gr" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#39d353" stop-opacity="0"/><stop offset="0.5" stop-color="#39d353"/><stop offset="1" stop-color="#39d353" stop-opacity="0"/></linearGradient>
+    <filter id="f_neon" x="-30%" y="-80%" width="160%" height="260%"><feGaussianBlur stdDeviation="1.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="f_clip"><rect x="3" y="3" width="894" height="114" rx="18"/></clipPath>
+  </defs>
+
+  <g filter="url(#f_neon)">
+    <rect x="3" y="3" width="894" height="114" rx="18" fill="#0A0714"/>
+    <rect x="3" y="3" width="894" height="114" rx="18" fill="url(#f_glow)"/>
+    <rect x="3.5" y="3.5" width="893" height="113" rx="17.5" fill="none" stroke="url(#f_border)" stroke-width="1.4"/>
+  </g>
+
+  <g clip-path="url(#f_clip)">
+    <!-- fast neon streaks -->
+    <rect x="0" y="22" width="150" height="2" fill="url(#st_cy)" filter="url(#f_neon)"><animate attributeName="x" values="-160;900" dur="1.6s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="34" width="110" height="2" fill="url(#st_pu)" filter="url(#f_neon)"><animate attributeName="x" values="-120;900" dur="2.3s" begin="0.4s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="92" width="180" height="2" fill="url(#st_gr)" filter="url(#f_neon)"><animate attributeName="x" values="-190;900" dur="1.9s" begin="0.2s" repeatCount="indefinite"/></rect>
+    <rect x="0" y="80" width="120" height="2" fill="url(#st_cy)" filter="url(#f_neon)"><animate attributeName="x" values="-130;900" dur="2.6s" begin="0.9s" repeatCount="indefinite"/></rect>
+
+    <!-- center neon baseline + travelling dot -->
+    <line x1="120" y1="60" x2="780" y2="60" stroke="#2a2250" stroke-width="1.4"/>
+    <circle cx="0" cy="60" r="4" fill="#5AE0FF" filter="url(#f_neon)"><animate attributeName="cx" values="120;780;120" dur="3.4s" repeatCount="indefinite"/><animate attributeName="fill" values="#5AE0FF;#8F6BFF;#39d353;#5AE0FF" dur="3.4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <text x="450" y="55" font-family="Consolas, monospace" font-size="15" letter-spacing="1" text-anchor="middle" fill="#ffffff" filter="url(#f_neon)">&#9889; built in public</text>
+  <text x="450" y="80" font-family="Consolas, monospace" font-size="13" letter-spacing="2" text-anchor="middle" fill="#9fe0ff">automatewithnazil.com</text>
+</svg>
