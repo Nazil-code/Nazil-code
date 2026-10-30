@@ -40,10 +40,13 @@
   <circle cx="780" cy="214" r="2.2" fill="#8f6bff"><animate attributeName="cy" values="214;234;214" dur="3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.8s" repeatCount="indefinite"/></circle>
 
   <!-- founder chip -->
-  <g transform="translate(500,70)">
-    <rect x="-132" y="-16" width="264" height="32" rx="16" fill="none" stroke="url(#chipGrad)" stroke-width="1.4" opacity="0.9"/>
-    <text x="0" y="5" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="3"
-          fill="#c9b8ff" text-anchor="middle">FOUNDER · AUTOMATE WITH NAZIL</text>
+  <g transform="translate(500,72)">
+    <rect x="-186" y="-17" width="372" height="34" rx="17" fill="#120a26" fill-opacity="0.55" stroke="url(#chipGrad)" stroke-width="1.4" opacity="0.95">
+      <animate attributeName="opacity" values="0.95;0.6;0.95" dur="3s" repeatCount="indefinite"/>
+    </rect>
+    <circle cx="-168" cy="0" r="3" fill="#5AE0FF"><animate attributeName="opacity" values="1;0.3;1" dur="1.6s" repeatCount="indefinite"/></circle>
+    <text x="8" y="5" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="4"
+          fill="#d7c6ff" text-anchor="middle">FOUNDER · AUTOMATE WITH NAZIL</text>
   </g>
 
   <!-- name -->

@@ -18,48 +18,53 @@
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=Nazil-code&style=flat-square&color=8f6bff&label=Profile+Views" alt="views" />
   <img src="https://img.shields.io/github/followers/Nazil-code?style=flat-square&color=8f6bff&label=Followers" alt="followers" />
-  <img src="https://img.shields.io/github/stars/Nazil-code?style=flat-square&color=5AE0FF&label=Total+Stars" alt="stars" />
+  <img src="https://img.shields.io/github/stars/Nazil-code?style=flat-square&color=5AE0FF&label=Stars" alt="stars" />
 </p>
 
----
+<br>
 
-## 💫 About Me
+## &nbsp;💫&nbsp; About Me
 
-```typescript
-const nazil = {
-  role: "Founder @ Automate with Nazil",
-  focus: ["AI Automation", "Web Apps", "AI/App Security"],
-  flagship: "Probe0 — open-source security scanner for AI agents",
-  mission: "Build ethical, world-helping security tools — free for everyone",
-  philosophy: "Ship in public. Make hard tools simple.",
-  openTo: ["Consulting", "AI security audits", "Collaborations"],
-};
+<table>
+<tr><td width="60%" valign="top">
+
+I'm **Nazil** — founder of **[Automate with Nazil](https://automatewithnazil.com)**, where I build **AI automations, web apps, and security tools**.
+
+My mission is simple: take the kind of tools that are usually **expensive and locked away**, and make them **free, open, and usable by anyone** — a student in Pakistan 🇵🇰 or a startup anywhere.
+
+That's why I built **[Probe0](https://github.com/Nazil-code/probe0)** — a free scanner that finds how AI agents can be tricked, and helps you fix it.
+
+</td><td width="40%" valign="top">
+
+```yaml
+role:     Founder @ Automate with Nazil
+building: Probe0 (AI security)
+focus:    AI · Web · Security
+learning: in public, daily
+open_to:  consulting · audits
+mindset:  ship > perfect
 ```
 
-- 🛡️ Building **[Probe0](https://github.com/Nazil-code/probe0)** — a free, open-source tool that finds, fixes & locks weaknesses in AI agents (prompt injection, secret leakage, tool-use abuse).
-- 🤖 Through **[Automate with Nazil](https://automatewithnazil.com)** I build AI automations, chatbots & web apps — with security baked in.
-- 🎓 BBA @ SZABIST · based in Pakistan 🇵🇰 · learning in public every single day.
-- 💬 Ask me about **AI agent security**, **LLM automations**, or shipping a product solo.
+</td></tr>
+</table>
 
----
+<br>
 
-## 🚀 Featured Project
+## &nbsp;🚀&nbsp; Featured Project
 
 <p align="center">
   <a href="https://github.com/Nazil-code/probe0">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Nazil-code&repo=probe0&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8F6BFF&icon_color=5AE0FF" alt="Probe0" />
+    <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/featured-probe0.svg" width="100%" alt="Probe0 — open-source AI agent security scanner" />
   </a>
 </p>
 
-> **Probe0** — *"Burp Suite for AI agents."* Zero-dependency Node.js CLI that security-tests your AI: 9 checks, reproducible evidence, remediation, fix-and-retest, and a CI gate so issues can't come back. **Free & open-source (Apache-2.0).**
->
-> ```bash
-> npm install -g probe0-cli && probe0 scan --target demo
-> ```
+<p align="center">
+  <code>npm install -g probe0-cli && probe0 scan --target demo</code>
+</p>
 
----
+<br>
 
-## 🛠️ Tech Stack
+## &nbsp;🛠️&nbsp; Tech Stack
 
 <p align="center">
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
@@ -75,24 +80,21 @@ const nazil = {
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white">
 </p>
 
----
+<br>
 
-## 📊 GitHub Stats
+## &nbsp;📊&nbsp; GitHub Dashboard
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Nazil-code&show_icons=true&count_private=true&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8F6BFF&icon_color=5AE0FF&text_color=C9D1D9" alt="stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Nazil-code&layout=compact&hide_border=true&theme=tokyonight&bg_color=0D1117&title_color=8F6BFF&text_color=C9D1D9" alt="top langs" />
+  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/stats-card.svg" width="420" alt="Dev stats" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/langs-card.svg" width="420" alt="Top languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nazil-code&hide_border=true&theme=tokyonight&background=0D1117&ring=8F6BFF&fire=5AE0FF&currStreakLabel=8F6BFF" alt="streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Nazil-code&hide_border=true&theme=tokyonight&background=0A0714&ring=8F6BFF&fire=5AE0FF&currStreakLabel=8F6BFF&sideLabels=9fe0ff&dates=8A7AB8" alt="streak" width="80%" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Nazil-code&theme=onedark&no-frame=true&no-bg=true&column=7&margin-w=8" alt="trophies" />
-</p>
-
----
+<br>
 
 <p align="center">
   <i>"The best security tool is the one everyone can afford — so I made it free."</i>
