@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/banner.gif?v=2" width="100%" alt="Nazil Iqbal — Founder, Automate with Nazil" />
+  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/banner.gif?v=3" width="100%" alt="Nazil Iqbal — Founder, Automate with Nazil" />
 </p>
 
 <p align="center">
