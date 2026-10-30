@@ -41,9 +41,8 @@
     <text x="34" y="292" fill="#C9D1D9">↳ <tspan fill="#ffffff" font-weight="700">automate-with-nazil</tspan>  ·  AI automations · web apps · security</text>
 
     <!-- focus -->
-    <text x="34" y="322"><tspan fill="#5AE0FF">$</tspan> <tspan fill="#c9b8ff">focus</tspan> --now <tspan fill="#8fffcf">learning in public · shipping every day</tspan></text>
+    <text x="34" y="322"><tspan fill="#5AE0FF">$</tspan> <tspan fill="#c9b8ff">focus</tspan> --now <tspan fill="#8fffcf">learning in public · shipping every day</tspan><tspan fill="#5AE0FF" font-weight="700" dx="5">▋<animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.05s" repeatCount="indefinite"/></tspan></text>
   </g>
-  <rect x="408" y="310" width="11" height="17" fill="#5AE0FF"><animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.45;0.5;0.95;1" dur="1.1s" repeatCount="indefinite"/></rect>
 
   <!-- neon sweep -->
   <g clip-path="url(#a_clip)">
