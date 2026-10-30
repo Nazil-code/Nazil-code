@@ -1,82 +1,67 @@
-<svg width="900" height="280" viewBox="0 0 900 280" xmlns="http://www.w3.org/2000/svg">
+<svg width="1000" height="300" viewBox="0 0 1000 300" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="bgGlow" cx="50%" cy="45%" r="65%">
-      <stop offset="0%" stop-color="#3b1f8a" stop-opacity="0.55"/>
+    <radialGradient id="bgGlow" cx="50%" cy="42%" r="70%">
+      <stop offset="0%" stop-color="#3b1f8a" stop-opacity="0.60"/>
       <stop offset="55%" stop-color="#1a0f3d" stop-opacity="0.35"/>
       <stop offset="100%" stop-color="#050208" stop-opacity="0"/>
     </radialGradient>
-
     <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#c9a6ff">
-        <animate attributeName="stop-color" values="#c9a6ff;#8f6bff;#c9a6ff" dur="4s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#d7b8ff">
+        <animate attributeName="stop-color" values="#d7b8ff;#8f6bff;#5AE0FF;#d7b8ff" dur="7s" repeatCount="indefinite"/>
       </stop>
-      <stop offset="50%" stop-color="#8f6bff">
-        <animate attributeName="stop-color" values="#8f6bff;#c9a6ff;#8f6bff" dur="4s" repeatCount="indefinite"/>
+      <stop offset="55%" stop-color="#8f6bff">
+        <animate attributeName="stop-color" values="#8f6bff;#5AE0FF;#d7b8ff;#8f6bff" dur="7s" repeatCount="indefinite"/>
       </stop>
       <stop offset="100%" stop-color="#5b3df0">
-        <animate attributeName="stop-color" values="#5b3df0;#8f6bff;#5b3df0" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="stop-color" values="#5b3df0;#8f6bff;#5AE0FF;#5b3df0" dur="7s" repeatCount="indefinite"/>
       </stop>
     </linearGradient>
-
+    <linearGradient id="chipGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f6bff"/><stop offset="1" stop-color="#5AE0FF"/>
+    </linearGradient>
     <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
       <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0 H0 V34" fill="none" stroke="#7a5cff" stroke-width="0.6" stroke-opacity="0.12"/>
+    </pattern>
   </defs>
 
-  <rect width="900" height="280" rx="14" fill="#050208"/>
-  <rect width="900" height="280" rx="14" fill="url(#bgGlow)"/>
-  <rect x="1" y="1" width="898" height="278" rx="13" fill="none" stroke="#3b1f8a" stroke-opacity="0.6"/>
+  <rect width="1000" height="300" rx="16" fill="#050208"/>
+  <rect width="1000" height="300" rx="16" fill="url(#grid)"/>
+  <rect width="1000" height="300" rx="16" fill="url(#bgGlow)"/>
+  <rect x="1" y="1" width="998" height="298" rx="15" fill="none" stroke="#3b1f8a" stroke-opacity="0.6"/>
 
-  <path d="M 40 40 L 90 40 L 120 70" stroke="#7a5cff" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.7"/>
-  <path d="M 860 240 L 810 240 L 780 210" stroke="#7a5cff" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.7"/>
+  <!-- floating accent nodes -->
+  <circle cx="150" cy="66" r="2.4" fill="#c9a6ff"><animate attributeName="cy" values="66;50;66" dur="3.5s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.5s" repeatCount="indefinite"/></circle>
+  <circle cx="860" cy="78" r="2" fill="#5AE0FF"><animate attributeName="cy" values="78;98;78" dur="4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/></circle>
+  <circle cx="230" cy="236" r="1.8" fill="#c9a6ff"><animate attributeName="cy" values="236;216;236" dur="3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="780" cy="214" r="2.2" fill="#8f6bff"><animate attributeName="cy" values="214;234;214" dur="3.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.8s" repeatCount="indefinite"/></circle>
 
-  <circle cx="120" cy="60" r="2.4" fill="#c9a6ff">
-    <animate attributeName="cy" values="60;45;60" dur="3.5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="3.5s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="780" cy="70" r="2" fill="#8f6bff">
-    <animate attributeName="cy" values="70;90;70" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="4s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="200" cy="220" r="1.8" fill="#c9a6ff">
-    <animate attributeName="cy" values="220;200;220" dur="3s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="700" cy="200" r="2.2" fill="#8f6bff">
-    <animate attributeName="cy" values="200;220;200" dur="3.8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="3.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="450" cy="45" r="1.6" fill="#c9a6ff">
-    <animate attributeName="cy" values="45;30;45" dur="3.2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.15;0.6" dur="3.2s" repeatCount="indefinite"/>
-  </circle>
+  <!-- founder chip -->
+  <g transform="translate(500,70)">
+    <rect x="-132" y="-16" width="264" height="32" rx="16" fill="none" stroke="url(#chipGrad)" stroke-width="1.4" opacity="0.9"/>
+    <text x="0" y="5" font-family="Consolas,'Courier New',monospace" font-size="13" letter-spacing="3"
+          fill="#c9b8ff" text-anchor="middle">FOUNDER · AUTOMATE WITH NAZIL</text>
+  </g>
 
-  <text x="450" y="120" font-family="Consolas, 'Courier New', monospace" font-size="52"
+  <!-- name -->
+  <text x="500" y="162" font-family="Consolas,'Courier New',monospace" font-size="58"
         font-weight="700" fill="url(#titleGrad)" text-anchor="middle" filter="url(#softGlow)"
-        letter-spacing="2">
-    NAZIL IQBAL
-  </text>
+        letter-spacing="3">NAZIL IQBAL</text>
 
-  <text x="450" y="160" font-family="Consolas, 'Courier New', monospace" font-size="18"
-        fill="#d8cdfa" text-anchor="middle" opacity="1">
-    Solutions Architect | AI Automation | Cybersecurity
+  <!-- rotating subtitle -->
+  <text x="500" y="200" font-family="Consolas,'Courier New',monospace" font-size="18" fill="#d8cdfa" text-anchor="middle" opacity="1">
+    AI Automation &#183; Web Apps &#183; Security
     <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.4;0.5;0.9;1" dur="6s" repeatCount="indefinite"/>
   </text>
-
-  <text x="450" y="160" font-family="Consolas, 'Courier New', monospace" font-size="18"
-        fill="#d8cdfa" text-anchor="middle" opacity="0">
-    Sales Manager • RAG Pipelines &amp; SOC Operations 🔥
+  <text x="500" y="200" font-family="Consolas,'Courier New',monospace" font-size="18" fill="#9fe0ff" text-anchor="middle" opacity="0">
+    Creator of Probe0 &#8212; open-source AI security scanner
     <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.4;0.5;0.9;1" dur="6s" repeatCount="indefinite"/>
   </text>
 
-  <line x1="60" y1="200" x2="840" y2="200" stroke="#5b3df0" stroke-width="1.5" opacity="0.6"/>
-
-  <text x="450" y="192" font-family="Consolas, 'Courier New', monospace" font-size="12"
-        fill="#8a7ab8" text-anchor="middle" letter-spacing="1">
-    AI AUTOMATION SPECIALIST • BUILDER • PROBLEM SOLVER
-  </text>
+  <line x1="90" y1="236" x2="910" y2="236" stroke="#5b3df0" stroke-width="1.3" opacity="0.55"/>
+  <text x="500" y="262" font-family="Consolas,'Courier New',monospace" font-size="12"
+        fill="#8a7ab8" text-anchor="middle" letter-spacing="2">BUILDER · PROBLEM SOLVER · SHIPPING IN PUBLIC</text>
 </svg>
