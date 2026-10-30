@@ -1,0 +1,50 @@
+<svg width="450" height="250" viewBox="0 0 450 250" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <defs>
+    <linearGradient id="a2_border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8F6BFF"/><stop offset="0.5" stop-color="#5AE0FF"/><stop offset="1" stop-color="#8F6BFF"/>
+      <animate attributeName="x2" values="1;0.4;1" dur="6s" repeatCount="indefinite"/>
+    </linearGradient>
+    <radialGradient id="a2_glow" cx="70%" cy="10%" r="90%"><stop offset="0" stop-color="#2a1a5a" stop-opacity="0.5"/><stop offset="65%" stop-color="#0A0714" stop-opacity="0"/></radialGradient>
+    <linearGradient id="a2_area" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5AE0FF" stop-opacity="0.45"/><stop offset="1" stop-color="#5AE0FF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="a2_line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8F6BFF"/><stop offset="1" stop-color="#5AE0FF"/></linearGradient>
+    <filter id="a2_shadow" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#8F6BFF" flood-opacity="0.28"/></filter>
+    <filter id="a2_soft" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="a2_reveal"><rect x="0" y="0" width="0" height="250"><animate attributeName="width" from="0" to="450" dur="1.6s" fill="freeze"/></rect></clipPath>
+  </defs>
+
+  <g filter="url(#a2_shadow)">
+    <rect x="3" y="3" width="444" height="244" rx="18" fill="#0A0714"/>
+    <rect x="3" y="3" width="444" height="244" rx="18" fill="url(#a2_glow)"/>
+    <rect x="3.5" y="3.5" width="443" height="243" rx="17.5" fill="none" stroke="url(#a2_border)" stroke-width="1.6"/>
+  </g>
+
+  <circle cx="30" cy="34" r="5" fill="#8F6BFF" filter="url(#a2_soft)"><animate attributeName="opacity" values="1;0.4;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  <text x="46" y="39" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="700" fill="#ffffff">Build Activity</text>
+  <text x="426" y="39" font-family="Consolas, monospace" font-size="12" fill="#39d353" text-anchor="end">&#9650; trending up</text>
+
+  <!-- gridlines -->
+  <g stroke="#1c2544" stroke-width="1">
+    <line x1="30" y1="96" x2="420" y2="96"/><line x1="30" y1="140" x2="420" y2="140"/><line x1="30" y1="184" x2="420" y2="184"/>
+  </g>
+
+  <g clip-path="url(#a2_reveal)">
+    <!-- area -->
+    <path d="M40,200 L40,170 L73.6,152 L107.3,164 L140.9,134 L174.5,146 L208.2,122 L241.8,140 L275.5,110 L309.1,118.4 L342.7,98 L376.4,106.4 L410,86 L410,200 Z" fill="url(#a2_area)"/>
+    <!-- line -->
+    <path d="M40,170 L73.6,152 L107.3,164 L140.9,134 L174.5,146 L208.2,122 L241.8,140 L275.5,110 L309.1,118.4 L342.7,98 L376.4,106.4 L410,86" fill="none" stroke="url(#a2_line)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" filter="url(#a2_soft)"/>
+  </g>
+
+  <!-- travelling glow dot -->
+  <circle r="5" fill="#fff" filter="url(#a2_soft)">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M40,170 L73.6,152 L107.3,164 L140.9,134 L174.5,146 L208.2,122 L241.8,140 L275.5,110 L309.1,118.4 L342.7,98 L376.4,106.4 L410,86"/>
+  </circle>
+  <circle r="9" fill="none" stroke="#5AE0FF" stroke-width="1.5" opacity="0.5">
+    <animateMotion dur="4s" repeatCount="indefinite" path="M40,170 L73.6,152 L107.3,164 L140.9,134 L174.5,146 L208.2,122 L241.8,140 L275.5,110 L309.1,118.4 L342.7,98 L376.4,106.4 L410,86"/>
+    <animate attributeName="r" values="7;11;7" dur="1.4s" repeatCount="indefinite"/>
+  </circle>
+
+  <text x="40" y="224" font-family="Consolas, monospace" font-size="11" fill="#5f6b96">commits</text>
+  <text x="410" y="224" font-family="Consolas, monospace" font-size="11" fill="#5f6b96" text-anchor="end">now</text>
+</svg>

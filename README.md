@@ -65,6 +65,12 @@
   <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/langs-card.svg" width="420" alt="Top languages" />
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/radar-card.svg" width="420" alt="AI threat coverage radar" />
+  &nbsp;
+  <img src="https://raw.githubusercontent.com/Nazil-code/Nazil-code/main/activity-card.svg" width="420" alt="Build activity graph" />
+</p>
+
 <br>
 
 <p align="center">
